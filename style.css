@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap");
+
+:root {
+  --VeryDark-Blue: hsl(243, 87%, 12%);
+  --Desaturated-Blue: hsl(238, 22%, 44%);
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+img {
+  width: 100%;
+}
+section {
+  padding: 150px 0px;
+}
+p{
+  max-width: 500px;
+}
+#team{
+  background-image: url(/image/bg-curve-desktop.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sendEmail{
+  background-color: var(--Desaturated-Blue);
+}
+#footer{
+  background-color: var(--VeryDark-Blue);
+}
+#footer .icon{
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  
+
+}
